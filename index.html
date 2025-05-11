@@ -15,11 +15,13 @@
       height: 100%;
       width: 100%;
       font-family: Arial, sans-serif;
-      overflow: hidden;
     }
 
     body {
-      position: relative;
+      background-image: url('Roblox.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -27,16 +29,6 @@
       color: white;
       text-align: center;
       padding: 20px;
-    }
-
-    video.bg-video {
-      position: fixed;
-      top: 0;
-      left: 0;
-      min-width: 100%;
-      min-height: 100%;
-      object-fit: cover;
-      z-index: -1;
     }
 
     h1 {
@@ -84,11 +76,6 @@
   </style>
 </head>
 <body>
-  <video class="bg-video" autoplay muted loop playsinline>
-    <source src="Video.mp4" type="video/mp4">
-    Votre navigateur ne supporte pas les vidéos HTML5.
-  </video>
-
   <h1>Rejoins notre serveur Discord !</h1>
   <a href="https://discord.gg/97bWYKRE8z" target="_blank" class="button">Clique ici pour rejoindre</a>
 
